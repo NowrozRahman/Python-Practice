@@ -1,0 +1,13 @@
+#find the least key from a dictionary when values are same
+y={
+    3:"Fahim",
+    2:"Nowroz",
+    1:"Fahim"
+}
+z=[]
+for i in y:
+    if y[i]=="Fahim":
+        z.append(i)
+sorted(z)
+
+print(z[0])
